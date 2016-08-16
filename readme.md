@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="author" content="">
+Pinegrow PRO Smart Components Tutorial
+========
 
-    <title>New page</title>
-
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-
-  <body></body>
-</html>
+Use this sample project together with [Components documentation](http://docs.pinegrow.com/editing/components) to learn how Smart components are created and used in Pinegrow PRO.
