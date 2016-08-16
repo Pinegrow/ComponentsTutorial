@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-pgc-section="Services">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation" data-pgc="animals.navbar"> 
+            <div class="container-fluid"> 
+                <div class="navbar-header"> 
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>                     
+                    <a class="navbar-brand" href="#">My Website</a>
+                </div>                 
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+                    <ul class="nav navbar-nav"> 
+                        <li class="active,disabled " data-pgc-field="menuitem1">
+                            <a href="#">Home</a>
+                        </li>                         
+                        <li data-pgc-field="menuitem2" class="active">
+                            <a href="#">Services</a>
+                        </li>
+                        <li data-pgc-field="menuitem3">
+                            <a href="#">About us</a>
+                        </li>                         
+                    </ul>
+                </div>                 
+            </div>             
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center" data-pgc-define="animals.service" data-pgc-define-name="Service">
+                    <i class="fa fa-5x fa-cloud text-primary" data-pgc-edit="icon[no_content]" data-pgc-edit-classes="/(?!fa\-border|fa\-spin|fa\-pulse|fa\-flip\-horizontal|fa\-flip\-vertical|fa\-fw|fa\-inverse)(fa-[a-z\-]*)$/"></i>
+                    <h3 data-pgc-edit="name[class]">Service Definition</h3> 
+                    <p data-pgc-edit="description">This is a component for describing services with editable Font Awesome icon, title and text.</p>
+                </div>
+                <div class="col-md-4 text-center" data-pgc="animals.service">
+                    <i class="fa fa-5x text-primary fa-magic" data-pgc-field="icon"></i>
+                    <h3 data-pgc-field="name" class="text-muted">Service B</h3> 
+                    <p data-pgc-field="description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+                <div class="col-md-4 text-center" data-pgc="animals.service">
+                    <i class="fa fa-5x text-primary fa-briefcase" data-pgc-field="icon"></i>
+                    <h3 data-pgc-field="name">Service C</h3> 
+                    <p data-pgc-field="description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>

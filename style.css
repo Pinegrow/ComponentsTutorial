@@ -1,0 +1,30 @@
+
+
+body
+{
+    padding-top: 90px;
+}
+
+.star
+{
+    color: #ffcd00;
+}
+
+.jumbotron
+{
+    background-size: cover;
+    background-image: url('images/landscape-sunset-blue-sunrise.jpeg');
+    min-height: 400px;
+    padding-top: 100px;
+}
+
+.jumbotron h1
+{
+    color: #ffffff;
+}
+
+.jumbotron p
+{
+    color: #ffffff;
+}
+
